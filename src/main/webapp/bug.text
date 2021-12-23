@@ -1,0 +1,11 @@
+1、问题描述：
+对于外部的请求，index2.jps可以解析配置文件，因为配置文件的位置都是相对于indx2.jsp
+而对于被controller返回的index2.jsp，解析配置文件会从全局来找。
+同一个页面就会在controller返回的显示不同
+解决方法：再复制一个assets文件在全局
+
+
+#337ab7
+
+修改的文件：
+_student:title，icon
